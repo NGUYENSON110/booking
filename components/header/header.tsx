@@ -47,7 +47,7 @@ const Header = () => {
                         borderColor: item.name === checkHeader ? "white" : "#003580",
                         borderRadius: 20,
                         padding: 8,
-                    }}
+                    }}  
                         onPress={() =>{
                             setCheckHeader(item.name)
                         }}
